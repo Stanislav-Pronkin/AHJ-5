@@ -1,0 +1,35 @@
+.container {
+    margin-top: 200px;
+    position: relative;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #db3849;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup {
+    border: black 1px solid;
+    position: absolute;
+    z-index: 999;
+}
+
+.popup-title,
+.popup-text {
+    margin: 0;
+    padding: 7px;
+}
+
+.popup-title {
+    background-color: gray;
+}
