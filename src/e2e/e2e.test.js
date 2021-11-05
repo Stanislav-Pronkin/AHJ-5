@@ -38,13 +38,13 @@ describe('Test popup', () => {
       await page.goto(baseUrl);
       const button = await page.$('[class=btn]');
       button.click();
-      await page.waitFor(() => document.querySelector('.popup'));
+      await page.waitFor(() => document.querySelector('div.popup'));
     });
 
     test('Close popup', async () => {
       const button = await page.$('[class=btn]');
       button.click();
-      await page.waitFor(() => !document.querySelector('.popup'));
+      await page.waitFor(() => !document.querySelector('div.popup'));
     });
   });
 });
