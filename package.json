@@ -8,7 +8,7 @@
         "on-test": "live-server src",
         "start": "webpack-dev-server --config webpack.dev.js",
         "build": "webpack --config webpack.prod.js",
-        "test": "jest --passWithNoTests",
+        "test": "jest --testPathPattern=./e2e/",
         "e2e": "jest --testPathPattern=./e2e/",
         "lint": "eslint ."
     },
