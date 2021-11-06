@@ -6,7 +6,7 @@
     "scripts": {
         "on-air": "live-server dist",
         "on-test": "live-server src",
-        "start": "webpack-dev-server --config webpack.dev.js",
+        "start": "webpack serve --config webpack.dev.js",
         "build": "webpack --config webpack.prod.js",
         "test": "jest --passWithNoTests",
         "e2e": "jest --testPathPattern=./src/e2e/",
