@@ -21,9 +21,9 @@ describe('Test popup', () => {
     });
 
     browser = await puppetteer.launch({
-      headless: false, // show gui
-      slowMo: 250,
-      devtools: false, // show devTools
+      //      headless: false, // show gui
+      //      slowMo: 250,
+      //      devtools: false, // show devTools
     });
     page = await browser.newPage();
   });
