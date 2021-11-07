@@ -2,7 +2,7 @@ export default class Popup {
   constructor(text, title, element) {
     this.text = text;
     this.title = title;
-//    this.button = document.querySelector('.btn');
+    //    this.button = document.querySelector('.btn');
     this.element = element;
     this.popup;
   }
