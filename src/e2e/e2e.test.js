@@ -1,7 +1,7 @@
 import puppetteer from 'puppeteer';
 import { fork } from 'child_process';
 
-jest.setTimeout(50000); // default puppeteer timeout
+jest.setTimeout(30000); // default puppeteer timeout
 
 describe('Test popup', () => {
   let browser = null;
@@ -21,7 +21,7 @@ describe('Test popup', () => {
     });
 
     browser = await puppetteer.launch({
-      headless: false, // show gui
+      headless: true, // show gui
       slowMo: 250,
       devtools: false, // show devTools
     });

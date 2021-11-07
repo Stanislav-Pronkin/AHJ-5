@@ -48,18 +48,18 @@ module.exports = {
       //          },
       //        ],
       //      },
-      {
-        test: /\.(txt)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              esModule: false,
-              name: 'txt/[name].[ext]',
-            },
-          },
-        ],
-      },
+      //      {
+      //        test: /\.(txt)$/,
+      //        use: [
+      //          {
+      //            loader: 'file-loader',
+      //            options: {
+      //              esModule: false,
+      //              name: 'txt/[name].[ext]',
+      //            },
+      //          },
+      //        ],
+      //      },
     ],
   },
   plugins: [
