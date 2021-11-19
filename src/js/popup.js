@@ -2,7 +2,6 @@ export default class Popup {
   constructor(text, title, element) {
     this.text = text;
     this.title = title;
-    //    this.button = document.querySelector('.btn');
     this.element = element;
     this.popup;
   }
@@ -23,6 +22,5 @@ export default class Popup {
 
   hide() {
     this.element.nextElementSibling.remove();
-    console.log('remove');
   }
 }
